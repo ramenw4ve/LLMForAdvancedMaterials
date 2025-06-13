@@ -1,15 +1,15 @@
-# 🔬LLM for Advanced Materials
+# LLM for Advanced Materials
 
 A domain-specific Large Language Model (LLM) designed to discover alternatives to rare and critical materials used in India’s magnetic technologies. By combining fine-tuned LLaMA models with material property prediction data, the system empowers researchers to make informed, sustainable material choices.
 
-## 🧠 Project Highlights
+## Project Highlights
 
 - Fine-tuned LLaMA 3 model on 10K+ material science abstracts using Unsloth.
 - Uses a Random Forest Regressor to generate synthetic data on key magnetic properties.
 - MERN-stack chat interface enabling real-time, natural language queries.
 - Locally hosted LLM via [Ollama](https://ollama.com) for under 150ms inference time.
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React, Tailwind CSS  
 - **Backend**: Node.js, Express  
@@ -17,7 +17,7 @@ A domain-specific Large Language Model (LLM) designed to discover alternatives t
 - **ML Pipeline**: Random Forest Regressor (scikit-learn)  
 - **Finetuning**: Unsloth
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1. Clone the repository
